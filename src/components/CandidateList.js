@@ -9,7 +9,8 @@ import CandidateItem from "./CandidateItem";
 const CandidateList = () => {
   //   const {candidates} = useCandidates();
 
-  const { candidates } = useSelector((state) => state.candidates);
+  // const { candidates } = useSelector((state) => state.candidates);
+  const candidates  = useSelector((state) => state.candidates);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCandidates);
