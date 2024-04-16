@@ -1,0 +1,18 @@
+.candidate-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: 3px 3px 10px #0c0c0c;
+    width: 300px;
+    margin: 10px;
+}
+
+.candidate-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
